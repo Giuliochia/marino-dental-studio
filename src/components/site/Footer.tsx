@@ -22,15 +22,15 @@ export function Footer() {
           <ul className="space-y-3 text-sm text-foreground/85">
             <li className="flex gap-3">
               <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
-              <span>Via Alessandro Manzoni 14<br />20121 Milano (MI)</span>
+              <span>Via dell'Esempio 1<br />20100 Milano (MI)</span>
             </li>
             <li className="flex gap-3">
               <Phone size={16} className="mt-0.5 shrink-0 text-primary" />
-              <span>02 4785 3120</span>
+              <span>02 0000 0000</span>
             </li>
             <li className="flex gap-3">
               <Mail size={16} className="mt-0.5 shrink-0 text-primary" />
-              <span>info@studiomarino.it</span>
+              <span>info@studio-marino.example</span>
             </li>
           </ul>
         </div>
