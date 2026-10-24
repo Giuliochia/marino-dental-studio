@@ -27,7 +27,7 @@ const services = [
 
 const values = [
   { icon: HeartHandshake, title: "Ascolto prima di tutto", body: "Ogni piano di cura nasce da un colloquio: tempi, priorità e preventivi condivisi." },
-  { icon: Award, title: "25 anni di esperienza", body: "Un team stabile guidato dal Dott. Marino, formazione continua e chirurgia certificata." },
+  { icon: Award, title: "Esperienza e formazione", body: "Un team stabile guidato dal Dott. Marino, formazione continua e chirurgia certificata." },
   { icon: Sparkles, title: "Tecnologia contemporanea", body: "Radiografia digitale a bassa dose, scanner intraorale, sterilizzazione tracciata." },
 ];
 
@@ -47,7 +47,7 @@ function Home() {
             >
               <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                Milano · Dal 1999
+                Milano · Studio dentistico
               </span>
               <h1 className="mt-6 font-serif text-[2.5rem] leading-[1.05] text-ink md:text-[3.6rem] lg:text-[4.2rem]">
                 La cura del sorriso,<br />
@@ -71,9 +71,9 @@ function Home() {
               </div>
 
               <dl className="mt-14 grid max-w-md grid-cols-3 gap-6 border-t border-border pt-8">
-                <div><dt className="font-serif text-2xl text-ink">25+</dt><dd className="mt-1 text-xs text-muted-foreground">anni di attività</dd></div>
-                <div><dt className="font-serif text-2xl text-ink">4.9<span className="text-primary">/5</span></dt><dd className="mt-1 text-xs text-muted-foreground">recensioni pazienti</dd></div>
-                <div><dt className="font-serif text-2xl text-ink">6</dt><dd className="mt-1 text-xs text-muted-foreground">specialisti in studio</dd></div>
+                <div><dt className="font-serif text-2xl text-ink">Online</dt><dd className="mt-1 text-xs text-muted-foreground">prenoti in pochi passaggi</dd></div>
+                <div><dt className="font-serif text-2xl text-ink">Chiaro</dt><dd className="mt-1 text-xs text-muted-foreground">preventivo prima di iniziare</dd></div>
+                <div><dt className="font-serif text-2xl text-ink">Su misura</dt><dd className="mt-1 text-xs text-muted-foreground">piano di cura personale</dd></div>
               </dl>
             </motion.div>
           </div>
@@ -150,7 +150,7 @@ function Home() {
               Un team, un metodo, <em className="text-primary">una persona alla volta.</em>
             </h2>
             <p className="mt-6 text-base leading-relaxed text-foreground/75">
-              Lo Studio Marino nasce nel 1999 come studio di quartiere e cresce con le persone che ci scelgono.
+              Lo Studio Marino nasce come studio di quartiere e cresce con le persone che ci scelgono.
               Continuiamo a credere che la miglior odontoiatria si faccia dedicando tempo, spiegando, e proponendo solo ciò che serve davvero.
             </p>
             <Link

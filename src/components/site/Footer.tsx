@@ -26,11 +26,11 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <Phone size={16} className="mt-0.5 shrink-0 text-primary" />
-              <span>02 4785 3120</span>
+              <span>02 0000 0000</span>
             </li>
             <li className="flex gap-3">
               <Mail size={16} className="mt-0.5 shrink-0 text-primary" />
-              <span>info@studiomarino.it</span>
+              <span>info@studiomarino.example</span>
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ export function Footer() {
       </div>
       <div className="border-t border-border">
         <div className="container-page flex flex-col justify-between gap-2 py-6 text-xs text-muted-foreground md:flex-row">
-          <div>© {new Date().getFullYear()} Studio Dentistico Marino — P.IVA 02847510968 (fittizia)</div>
+          <div>© {new Date().getFullYear()} Studio Dentistico Marino — P.IVA 00000000000 (fittizia)</div>
           <div>Progetto dimostrativo — nessun dato viene realmente registrato.</div>
         </div>
       </div>

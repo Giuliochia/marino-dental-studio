@@ -35,10 +35,10 @@ function seed(): Appointment[] {
   const d2 = new Date(today); d2.setDate(today.getDate() + 2);
   const d3 = new Date(today); d3.setDate(today.getDate() + 3);
   return [
-    { id: "a1", service: "igiene", date: iso(today), time: "10:30", firstName: "Giulia", lastName: "Bianchi", phone: "348 221 4478", email: "giulia.b@example.it", status: "confermato", createdAt: Date.now() - 86400000 },
-    { id: "a2", service: "visita", date: iso(d1), time: "15:00", firstName: "Marco", lastName: "Rossi", phone: "339 118 2201", email: "m.rossi@example.it", status: "confermato", createdAt: Date.now() - 3600000 },
-    { id: "a3", service: "ortodonzia", date: iso(d2), time: "11:15", firstName: "Alessia", lastName: "Conti", phone: "347 774 5510", email: "a.conti@example.it", notes: "Interesse per allineatori invisibili.", status: "confermato", createdAt: Date.now() - 7200000 },
-    { id: "a4", service: "implantologia", date: iso(d3), time: "17:00", firstName: "Paolo", lastName: "Ferri", phone: "331 552 8890", email: "p.ferri@example.it", status: "confermato", createdAt: Date.now() - 400000 },
+    { id: "a1", service: "igiene", date: iso(today), time: "10:30", firstName: "Giulia", lastName: "Bianchi", phone: "333 000 0001", email: "giulia.b@example.com", status: "confermato", createdAt: Date.now() - 86400000 },
+    { id: "a2", service: "visita", date: iso(d1), time: "15:00", firstName: "Marco", lastName: "Rossi", phone: "333 000 0002", email: "m.rossi@example.com", status: "confermato", createdAt: Date.now() - 3600000 },
+    { id: "a3", service: "ortodonzia", date: iso(d2), time: "11:15", firstName: "Alessia", lastName: "Conti", phone: "333 000 0003", email: "a.conti@example.com", notes: "Interesse per allineatori invisibili.", status: "confermato", createdAt: Date.now() - 7200000 },
+    { id: "a4", service: "implantologia", date: iso(d3), time: "17:00", firstName: "Paolo", lastName: "Ferri", phone: "333 000 0004", email: "p.ferri@example.com", status: "confermato", createdAt: Date.now() - 400000 },
   ];
 }
 

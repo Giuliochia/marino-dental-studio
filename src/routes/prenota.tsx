@@ -287,7 +287,7 @@ function StepForm({ form, setForm }: { form: FormState; setForm: (f: FormState) 
           <input className={inputCls} value={form.lastName} onChange={(e) => set("lastName", e.target.value)} placeholder="Es. Bianchi" />
         </Field>
         <Field label="Telefono">
-          <input className={inputCls} value={form.phone} onChange={(e) => set("phone", e.target.value)} placeholder="Es. 348 221 4478" inputMode="tel" />
+          <input className={inputCls} value={form.phone} onChange={(e) => set("phone", e.target.value)} placeholder="Es. 333 000 0000" inputMode="tel" />
         </Field>
         <Field label="Email">
           <input type="email" className={inputCls} value={form.email} onChange={(e) => set("email", e.target.value)} placeholder="tuoindirizzo@email.it" />
