@@ -56,8 +56,8 @@ export function Footer() {
             Studio
           </div>
           <ul className="space-y-2 text-sm text-foreground/85">
-            <li><a href="/#servizi" className="hover:text-primary">Servizi</a></li>
-            <li><a href="/#chi-siamo" className="hover:text-primary">Chi siamo</a></li>
+            <li><Link to="/" hash="servizi" className="hover:text-primary">Servizi</Link></li>
+            <li><Link to="/" hash="chi-siamo" className="hover:text-primary">Chi siamo</Link></li>
             <li><Link to="/prenota" className="hover:text-primary">Prenota una visita</Link></li>
             <li><Link to="/staff" className="hover:text-primary">Area segreteria</Link></li>
           </ul>

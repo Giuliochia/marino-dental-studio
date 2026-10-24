@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const nav = [
-  { label: "Servizi", href: "/#servizi" },
-  { label: "Chi siamo", href: "/#chi-siamo" },
-  { label: "Contatti", href: "/#contatti" },
+  { label: "Servizi", hash: "servizi" },
+  { label: "Chi siamo", hash: "chi-siamo" },
+  { label: "Contatti", hash: "contatti" },
 ];
 
 export function Header() {
@@ -39,13 +39,14 @@ export function Header() {
 
         <nav className="hidden items-center gap-9 md:flex">
           {nav.map((n) => (
-            <a
-              key={n.href}
-              href={n.href}
+            <Link
+              key={n.hash}
+              to="/"
+              hash={n.hash}
               className="relative text-sm text-foreground/80 transition-colors hover:text-primary after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               {n.label}
-            </a>
+            </Link>
           ))}
           <Link
             to="/prenota"
@@ -68,14 +69,15 @@ export function Header() {
         <div className="border-t border-border bg-background md:hidden">
           <div className="container-page flex flex-col gap-1 py-4">
             {nav.map((n) => (
-              <a
-                key={n.href}
-                href={n.href}
+              <Link
+                key={n.hash}
+                to="/"
+                hash={n.hash}
                 onClick={() => setOpen(false)}
                 className="rounded-md px-3 py-3 text-base text-foreground hover:bg-secondary"
               >
                 {n.label}
-              </a>
+              </Link>
             ))}
             <Link
               to="/prenota"
